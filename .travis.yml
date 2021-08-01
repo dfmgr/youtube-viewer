@@ -7,7 +7,7 @@ sudo: enabled
 
 install:
   - sudo bash -c "add-apt-repository -ys ppa:nilarimogard/webupd8 ; add-apt-repository -ys ppa:kelleyk/emacs"
-  - sudo bash -c "$(curl -LSs https://github.com/dfmgr/installer/raw/master/install.sh)"
+  - sudo bash -c "$(curl -LSs https://github.com/dfmgr/installer/raw/main/install.sh)"
   - sudo pkmgr init
   - pkmgr update
   - sudo dotfiles admin scripts

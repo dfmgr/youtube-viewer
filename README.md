@@ -5,7 +5,7 @@ Lightweight application for searching and streaming videos from YouTube
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/youtube-viewer/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/youtube-viewer/raw/main/install.sh)"
 ```
 
 Manual install:
